@@ -27,7 +27,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const createProject = (project: Project) => {
     setActiveProject(project)
-    setCurrentStep(2)
+    setCurrentStep(1)
     setView('workflow')
   }
 
