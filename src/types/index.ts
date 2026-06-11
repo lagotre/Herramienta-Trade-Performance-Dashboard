@@ -16,6 +16,8 @@ export interface Project {
   name: string
   client: string
   period: string
+  periodFrom: string
+  periodTo: string
   currency: string
   businessType: string
   channels: string[]
